@@ -1,0 +1,45 @@
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Tasks Manager</div>
+  <div class="panel-body">
+    <h3>Tasks 1</h3>
+  	<div>
+  		<label> Width:
+  			<input ng-model="tasks[1].width" type="number" class="form-control" placeholder="width" aria-describedby="basic-addon1">
+  		</label>
+  		<label> Height:
+  			<input ng-model="tasks[1].height" type="number" class="form-control" placeholder="width" aria-describedby="basic-addon1">
+  		</label>
+  		<label> Symbol:
+  			<input ng-model="tasks[1].symbol" type="text" class="form-control" placeholder="width" aria-describedby="basic-addon1">
+  		</label>
+
+  		<div class="btn-primary btn" role="group" aria-label="Run task" ng-click="runTask(1)">Run</div>
+  	</div>
+    <br/>
+    <h3>Tasks 2</h3>
+    <div ng-repeat="envelope in tasks[2]">
+      Envelope {{$index + 1}}
+      <label> Width:
+        <input ng-model="envelope.width" type="number" class="form-control" placeholder="width" aria-describedby="basic-addon1">
+      </label>
+      <label> Height:
+        <input ng-model="envelope.height" type="number" class="form-control" placeholder="width" aria-describedby="basic-addon1">
+      </label>
+    </div>
+
+    <div class="btn-primary btn" role="group" aria-label="Run task" ng-click="runTask(2)">Run</div>
+    <p>{{tasks}}</p>
+    <div class="mt-20 text-right">
+      <div class="btn-danger btn text-right" role="group" aria-label="Run task" ng-click="runAll()">Run All Tasks</div>
+    </div>
+
+  </div>
+  <div ng-if="error" class="alert alert-danger">
+    <pre>{{error}}</pre>  
+  </div>
+  <div ng-if="data" class="alert alert-success">
+    <pre>{{data}}</pre>  
+  </div>
+  
+</div>

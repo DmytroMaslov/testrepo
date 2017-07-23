@@ -1,0 +1,8 @@
+.panel-body {
+	height: 500px;
+	overflow: auto;
+}
+
+.mt20 {
+	margin-top: 20px;
+}

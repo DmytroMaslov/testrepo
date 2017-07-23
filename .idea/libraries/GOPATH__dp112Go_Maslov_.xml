@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;dp112Go-Maslov&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/dp112Go-Maslov/src/github.com" />
+      <root url="file://$USER_HOME$/dp112Go-Maslov/src/webServer" />
+      <root url="file://$USER_HOME$/dp112Go-Maslov/src/tasksElementary" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$USER_HOME$/dp112Go-Maslov/src/github.com" />
+      <root url="file://$USER_HOME$/dp112Go-Maslov/src/webServer" />
+      <root url="file://$USER_HOME$/dp112Go-Maslov/src/tasksElementary" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
