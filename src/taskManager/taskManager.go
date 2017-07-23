@@ -1,10 +1,10 @@
 package taskManager
 
 import (
-	"github.com/DmytroMaslov/dp112Go-Maslov/src/task1"
-	"github.com/DmytroMaslov/dp112Go-Maslov/src/task5"
+	"github.com/DmytroMaslov/testrepo/src/task1"
+	"github.com/DmytroMaslov/testrepo/src/task5"
 	"errors"
-	"github.com/DmytroMaslov/dp112Go-Maslov/src/task2"
+	"github.com/DmytroMaslov/testrepo/src/task2"
 )
 const EMPTY_STR = ""
 var allTask = make(map[string]func ([]byte)(string, error))

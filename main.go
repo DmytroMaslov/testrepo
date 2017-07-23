@@ -2,7 +2,7 @@ package main
 
 import (
 	"net/http"
-	"github.com/DmytroMaslov/dp112Go-Maslov/src/handlers"
+	"github.com/DmytroMaslov/testrepo/src/handlers"
 	"os"
 	"fmt"
 )

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"fmt"
 	"io/ioutil"
-	"github.com/DmytroMaslov/dp112Go-Maslov/src/taskManager"
+	"github.com/DmytroMaslov/testrepo/src/taskManager"
 	"encoding/json"
 	"strings"
 	"html/template"
