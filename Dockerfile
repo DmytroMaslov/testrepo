@@ -1,3 +1,3 @@
-FROM golang:onbuild
-COPY main /
+FROM scratch
+COPY main/
 CMD ["/main"]
